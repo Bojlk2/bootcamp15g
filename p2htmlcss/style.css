@@ -1,0 +1,29 @@
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+
+p{
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+button{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 120px;
+    height: 40px;
+    border-radius: 10%;
+    border: none;
+}
+
+.article1{
+    background-color:hsl(31,77%,52%);
+    }
+
+.article2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.article3{
+    background-color: hsl(179, 100%, 13%);
+}

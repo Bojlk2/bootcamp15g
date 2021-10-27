@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-leca{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.font-big{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card{
+    padding: 3rem;
+    width: 11rem;
+    height: 15rem;
+    
+
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.very-cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+button{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 120px;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+}

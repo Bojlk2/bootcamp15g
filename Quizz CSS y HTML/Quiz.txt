@@ -1,0 +1,46 @@
+1. Escribe el selector de CSS correspondiente a los siguientes enunciados:
+
+- Selecciona todos los elementos del tipo párrafo que tengan la clase main-text.
+p.main-text{}
+
+- Selecciona todos los elementos de lista pares dentro de una lista no ordenada
+ul>li:nth-of-type(even){}
+
+- Selecciona los links visitados dentro de una barra de navegación
+nav a:visited
+
+- Selecciona la imagen que sea descendiente inmediato de una card sobre la que se coloca el puntero del mouse
+card:hover img{}
+
+- Selecciona la primer sección que se encuentre dentro de una etiqueta main
+main section:first-of-type{}
+
+- Selecciona cualquier elemento que incluya en su classlist el texto "btn"
+*{classlist*="btn"}
+
+- Selecciona todos los botones excepto aquellos que sean el último hijo
+
+
+
+2. Describe qué elemento será seleccionado con base en los siguientes selectores:
+
+header#main-header > ul
+Selecciona la lista desordenada dentro del id main-header en un tag header
+
+aside ul li:not(even)
+Selecciona los list items no pares de las listas desordenadas del tag aside
+
+section#posts article:nth-of-type( odd )
+Selecciona los items impares de los articles del id posts del tag section
+
+table tr td
+Selecciona los datos de la tabla dentro de una fila de una tabla dentro una tabla
+
+footer > ul li a.nav-link
+Selecciona las clases nav-link de los links de una list item de una lista desordenada contenida en el footer
+
+p span.text-white
+Selecciona la clase text-white del span de los parrafos
+
+section.bg-dark p.text-white span
+Selecciona un span de un parrafo con la clase text-white que este con un section con clase bg-dark
